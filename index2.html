@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modulo 1 Sesion 4 - evaluacion</title>
+<link rel="stylesheet" href="./assets/css/estilos.css">
+<!--<link rel="stylesheet" href="./assets/css/css bootstrap/bootstrap.min.css">-->
+ 
+</head>
+
+<body onload="asignarEventos2()">
+
+    <div>
+        <a href="index.html">Ir a eval prompts</a>
+        <hr>
+    
+    
+        <form>
+            <label for="txtNombre">Nombre:</label>
+            <input type="text" id="txtNombre">
+            <label for="txtTemperatura">¿Cuál es la temperatura actual?</label>
+            <input type="text" id="txtTemperatura">
+            <label for="txtHoras">¿Cuántas horas disponibles tienes para salir de paseo?</label>
+            <input type="text" id="txtHoras">
+            <label for="txtLlueve">¿Está lloviendo?</label>
+            <input type="text" id="txtLlueve">
+            <input type="button" id=btnEnviar value="Enviar">
+        </form>
+        <hr>
+        <div id="contenedorPadre">
+            <div id="divImagen">
+                <img src="./assets/img/weather.jpg" alt="weather" width="300" height="200">
+            </div>
+    
+            <div id="divContenido">
+                <h3>¿Es un buen momento para salir de paseo?</h3>
+                <h2 id="paseoRespuesta"></h2>
+            </div>
+    
+    </div>
+
+
+      <script src="./assets/js/logica2.js"></script>
+</body>
+</html>
