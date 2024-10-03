@@ -18,26 +18,4 @@ function asignarEventos() {
 
  //FORM IDNEX 2
 
- function asignarEventos2() {
-
-  let elNombre = document.getElementById('txtNombre').value;
-  let laTemperatura = Number(document.getElementById('txtTemperatura').value);
-  let elTiempo = Number(document.getElementById('txtHoras').value);
-  let laLluvia = document.getElementById('txtLlueve').value;
-  let elBotonEnviar = document.getElementById('btnEnviar');
-  elBotonEnviar.addEventListener('click', alert);
-
-
-// proceso
-if (laTemperatura >= 12 && laTemperatura <= 30 && laLluvia === "no" && elTiempo > 1) {
-     
-    //SALIDA
-    alert(elNombre + ", es buen momento para organizar un picnic!!!!!!");
-  } 
-  else {
-      alert(elNombre + ", no es un buen momento para organizar un picnic =(=(");
-  }
- 
-}
-
 

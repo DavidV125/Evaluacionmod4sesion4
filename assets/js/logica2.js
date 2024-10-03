@@ -1,5 +1,5 @@
 function asignarEventos2() {
-
+  document.getElementById('paseoRespuesta').textContent = '';
     let elNombre = document.getElementById('txtNombre').value;
     let laTemperatura = Number(document.getElementById('txtTemperatura').value);
     let elTiempo = Number(document.getElementById('txtHoras').value);

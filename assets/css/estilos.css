@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+    font-size: 18px;
+}
